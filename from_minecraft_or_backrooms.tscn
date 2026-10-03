@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bc30jvxigxq7b"]
+
+[ext_resource type="AudioStream" uid="uid://hsg4uds1h12p" path="res://Where do i belong.mp3" id="1_n8don"]
+
+[node name="FromMinecraftOrBackrooms" type="AudioStreamPlayer" unique_id=802599268]
+stream = ExtResource("1_n8don")
+volume_db = -17.672
+autoplay = true

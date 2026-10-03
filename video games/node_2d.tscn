@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cxdqsndk7tt1r"]
+
+[ext_resource type="Texture2D" uid="uid://cnyam38pf3f1l" path="res://verity_png__by_dantyxsrc_dmfcmo0-fullview.png" id="1_vr6yu"]
+
+[node name="Verity" type="Node2D" unique_id=290086970]
+
+[node name="Verity2D" type="Sprite2D" parent="." unique_id=108605759]
+position = Vector2(-1, -1)
+scale = Vector2(0.359375, 0.359375)
+texture = ExtResource("1_vr6yu")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bv8bfpa7kqpg4"]
+
+[ext_resource type="Texture2D" uid="uid://c5hhn6q4sftu8" path="res://images (2).jpg" id="1_whbbq"]
+[ext_resource type="Texture2D" uid="uid://dco361eybcy5r" path="res://images (1).png" id="2_w17tw"]
+
+[node name="BG" type="Node2D" unique_id=410685515]
+
+[node name="Minecraft" type="Sprite2D" parent="." unique_id=1468672197]
+position = Vector2(293.5, 325.74997)
+scale = Vector2(1.3221476, 1.4642056)
+texture = ExtResource("1_whbbq")
+
+[node name="Backrooms" type="Sprite2D" parent="." unique_id=253037315]
+position = Vector2(873, 324)
+scale = Vector2(1.2418655, 1.5161663)
+texture = ExtResource("2_w17tw")

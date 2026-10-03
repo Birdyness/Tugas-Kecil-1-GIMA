@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bcymbn1xefuvn"]
+
+[ext_resource type="Texture2D" uid="uid://d0fpddla6xcv8" path="res://dmc1oww-b0e11674-b51a-4535-bdaf-4e79b6f22efd.png" id="1_a8axf"]
+
+[node name="Clark" type="Node2D" unique_id=1758057795]
+
+[node name="BackroomsGuy" type="Sprite2D" parent="." unique_id=444078403]
+position = Vector2(282, 319)
+scale = Vector2(0.3177673, 0.31776726)
+texture = ExtResource("1_a8axf")
+
+[node name="TextEdit" type="TextEdit" parent="BackroomsGuy" unique_id=607090882]
+offset_left = -585.334
+offset_top = -1025.9081
+offset_right = 714.35925
+offset_bottom = -878.0011
+theme_override_font_sizes/font_size = 85
+text = "HE BELONGS TO BACKROOMS"

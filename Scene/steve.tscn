@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://g7ojse8jcjnu"]
+
+[ext_resource type="Texture2D" uid="uid://fvoog24ciscq" path="res://Minecraft-Steve-PNG-File.png" id="1_k7dt0"]
+
+[node name="Steve" type="Node2D" unique_id=1569316185]
+
+[node name="Nauseting Light" type="Sprite2D" parent="." unique_id=1875704415]
+position = Vector2(70.375, 72.12246)
+scale = Vector2(0.19976453, 0.19976455)
+texture = ExtResource("1_k7dt0")
+
+[node name="TEXT" type="TextEdit" parent="Nauseting Light" unique_id=119933036]
+offset_left = -387.33102
+offset_top = -486.18466
+offset_right = 621.9822
+offset_bottom = -351.63855
+theme_override_font_sizes/font_size = 70
+text = "VERITYS FROM MINECRAFT
+"

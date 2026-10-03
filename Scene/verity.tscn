@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b4aptdldhuo12"]
+
+[ext_resource type="Script" uid="uid://cs02jh1djsw2n" path="res://Scene/verity.gd" id="1_rkj26"]
+[ext_resource type="Texture2D" uid="uid://cnyam38pf3f1l" path="res://verity_png__by_dantyxsrc_dmfcmo0-fullview.png" id="1_yf82y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ryuko"]
+radius = 7.0
+
+[node name="Verity" type="CharacterBody2D" unique_id=167338421]
+script = ExtResource("1_rkj26")
+
+[node name="Verity2D" type="Sprite2D" parent="." unique_id=108605759]
+position = Vector2(0, -1)
+scale = Vector2(0.06445311, 0.06445311)
+texture = ExtResource("1_yf82y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1755242057]
+position = Vector2(0, -1)
+shape = SubResource("CircleShape2D_ryuko")

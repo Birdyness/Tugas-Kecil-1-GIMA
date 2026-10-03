@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://vmxqns2kchaw"]
+
+[ext_resource type="Script" uid="uid://chy3jsfhfmclf" path="res://main_menu.gd" id="1_ftydy"]
+[ext_resource type="FontFile" uid="uid://dxuc8hvwrioi1" path="res://Isometra-Regular.ttf" id="2_hii65"]
+[ext_resource type="AudioStream" uid="uid://bl5m87bbyleh0" path="res://a-capella-it-s-me-it-s-verity-horror-skunx-official-song_yAQigRLs.mp3" id="3_kqsxi"]
+[ext_resource type="Texture2D" uid="uid://bnqqv43hsri82" path="res://VerityMonsterForm.png" id="4_kqsxi"]
+
+[node name="MainMenu" type="Node2D" unique_id=752778337]
+script = ExtResource("1_ftydy")
+
+[node name="ButtonLord" type="Control" parent="." unique_id=1998328739]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Start" type="Button" parent="ButtonLord" unique_id=517328135]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 335.0
+offset_right = 384.0
+offset_bottom = 405.0
+theme_override_fonts/font = ExtResource("2_hii65")
+theme_override_font_sizes/font_size = 25
+text = "Start
+"
+
+[node name="Hey" type="Button" parent="ButtonLord" unique_id=1397818467]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 425.0
+offset_right = 384.0
+offset_bottom = 496.0
+theme_override_fonts/font = ExtResource("2_hii65")
+theme_override_font_sizes/font_size = 20
+text = "Hey
+"
+
+[node name="Quit" type="Button" parent="ButtonLord" unique_id=359256813]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 516.0
+offset_right = 383.0
+offset_bottom = 589.0
+theme_override_fonts/font = ExtResource("2_hii65")
+theme_override_font_sizes/font_size = 25
+text = "Quit
+"
+
+[node name="Hey" type="AudioStreamPlayer" parent="." unique_id=1144538178]
+stream = ExtResource("3_kqsxi")
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1375098729]
+offset_left = 77.0
+offset_top = 127.0
+offset_right = 649.0
+offset_bottom = 233.0
+theme_override_colors/caret_background_color = Color(0, 0, 0, 0)
+theme_override_font_sizes/font_size = 60
+text = "Where do I belong?"
+
+[node name="Monstrity" type="Sprite2D" parent="." unique_id=1536588068]
+position = Vector2(819, 836)
+texture = ExtResource("4_kqsxi")
+
+[connection signal="pressed" from="ButtonLord/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="ButtonLord/Hey" to="." method="_on_hey_pressed"]
+[connection signal="pressed" from="ButtonLord/Quit" to="." method="_on_quit_pressed"]
